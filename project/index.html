@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+
+<style>
+    body {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    
+    #btn {
+        width: 50px;
+        height: 25px;
+        border-width: 4px;
+        border-radius: 25px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        left: 150px;
+        top: 40px;
+        background-color: white;
+    }
+</style>
+
+
+
+<div style="position: relative;">
+    <p style="position: absolute;z-index:10;color: white; left: 10px; top: 10px; 
+      margin: 0;font-family: sans-serif; font-size: 14px;">
+
+        <span>Score:</span> <span id="scoreEl">0</span>
+
+    </p>
+    <canvas></canvas>
+</div>
+<script src="./index.js"></script>
